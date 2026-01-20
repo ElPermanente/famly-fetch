@@ -24,7 +24,7 @@ def get_device_id() -> str:
 
 class ApiClient:
     _access_token = None
-    _base = "https://app.famly.co"
+    _base = "https://app.famly.de"
 
     def __init__(self, user_agent: str | None = None, access_token: str | None = None):
         """
